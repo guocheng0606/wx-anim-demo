@@ -1,0 +1,43 @@
+/* index.wxss */
+page{
+  background-color: #999999;
+}
+.content{
+  width: 100%;
+  height: 402rpx;
+  position: relative; 
+  display: flex;
+  flex-direction: column
+}
+.image{
+  width: 100%;
+  height: 400rpx; 
+}
+.title_view{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20rpx;
+  left:10rpx
+}
+.text1{
+  color: #FFFFFF;
+  font-size: 28rpx;
+}
+.text2{
+  color: #FFFFFF;
+  font-size: 32rpx;
+  font-weight: 550
+}
+.loading_view{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.line{
+  width: 100%;
+  height: 2rpx;
+  background-color: #808080
+}

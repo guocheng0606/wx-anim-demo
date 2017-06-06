@@ -1,0 +1,7 @@
+<!--playAnim.wxml-->
+<video class="video_view" src="{{videoUrl}}" controls="true" poster="{{poster}}"></video>
+
+<view class="content">
+  <text class="content_title">{{name}}</text>
+  <text class="content_text">{{explain}}</text>
+</view>
